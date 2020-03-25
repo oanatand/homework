@@ -1,0 +1,49 @@
+* {
+  background-color: rgb(231, 227, 218);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: blue;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 700px;
+  position: absolute;
+  left: 15%;
+  top: 0;
+}
+
+img {
+  margin-left: 500px;
+  margin-right: 500px;
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+  border: 2px solid gray;
+  top: 20px;
+  position: absolute;
+  display: block;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 7500px;
+}
+
+p {
+  margin-left: 250px;
+  margin-right: 750px;
+}
