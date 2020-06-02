@@ -86,21 +86,19 @@ console.log(arrayCount(list, 8));
 
 
 function pattern() {
-    var columns = 4;
-    var rows = 4;
+    var columns = 5;
+    var rows = 5;
     var matrix = [];
 
     for (var i = 0; i < rows; i++) {
         var currentRow = [];
         for (var j = 0; j < columns; j++) {
-
             if ((i + j) % 2 == 0) {
                 currentRow.push(0);
             }
             else {
                 currentRow.push(1);
             }
-            console.log("\n")
         }
         matrix.push(currentRow);
     }
@@ -110,7 +108,7 @@ function pattern() {
 
 function printArraysMatrix(matrix) {
     for (var i=0; i<matrix.length; i++) {
-        console.log(matrix[i]);
+        console.log(...matrix[i]);
     }
 }
 console.log(printArraysMatrix(pattern()));
